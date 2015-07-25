@@ -227,7 +227,7 @@ class FlatParser(FileParser):
             splited = line.split()
             if len(splited) == 3:
                 addr, name, size = splited
-            elif len(splted) == 2:
+            elif len(splited) == 2:
                 addr, name = splited
                 size = "0"
             else:
